@@ -1,4 +1,4 @@
-# MidtermBootcamp
+# MidterHackathon
 
 Team Members:
 
