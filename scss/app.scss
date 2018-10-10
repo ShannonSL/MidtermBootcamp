@@ -175,7 +175,7 @@ $menu-hover-lines-border-width: 1px;
   }
 
   li.active > a {
-    background-color: transparent;
+    background-color: #000;
   }
 
   a:before,
@@ -213,6 +213,112 @@ $menu-hover-lines-border-width: 1px;
 }
 
 
-.banner{
+
+.bannerTop {
   margin-top:1em;
+	z-index:999;
+	background-image: url('../images/Smart_Thermostat4.png');
+ background-position: top center;
+	 height:100vh;
+background-repeat:no-repeat;
+
+}
+
+.specs{
+	background-color:#dddddd;
+	font-size:1em;
+	text-align:center;
+}
+
+.wallmount{
+	background-image:url('../images/1.png');
+height:350px;
+width:350px;
+background-repeat:no-repeat;
+}
+
+.watch{
+	background-image:url('../images/2.png');
+	height:350px;
+	width:350px;
+	background-repeat:no-repeat;
+}
+
+.phone{
+	background-image:url('../images/3.png');
+	height:350px;
+	width:350px;
+	background-repeat:no-repeat;
+
+}
+
+.tablet{
+	background-image:url('../images/4.png');
+	height:350px;
+	width:350px;
+	background-repeat:no-repeat;
+}
+
+.website{
+	background-image:url('../images/5.png');
+	height:350px;
+	width:350px;
+	background-repeat:no-repeat;
+}
+
+.wallmount-section{
+	text-align:center;
+}
+
+.mobile-section{
+	text-align:center;
+	background-color:#dddddd;
+
+}
+
+.tablet-section{
+	text-align:center;
+	background-color:#dddddd;
+
+}
+
+.watch-section{
+	text-align:center;
+	background-color:#dddddd;
+
+}
+
+.website-section{
+	text-align:center;
+	background-color:#dddddd;
+
+}
+
+.wallmount-ui{
+	background-image:url('../images/6.png');
+	background-repeat:no-repeat;
+	width:100%;
+}
+
+.watch-ui{
+	background-image:url('../images/watchdet.png');
+	background-repeat:no-repeat;
+	width:100%;
+}
+
+.tablet-ui{
+	background-image:url('../images/phoneMockUp.jpg');
+	background-repeat:no-repeat;
+	width:100%;
+
+}
+
+.website-ui{
+	background-image:url('../images/images/phoneMockUp.jpg');
+	background-repeat:no-repeat;
+	width:100%;
+}
+
+.button{
+	color:#000;
 }
